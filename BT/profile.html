@@ -63,12 +63,9 @@ h1, h2, h3, p, ul { margin: 0; }
   width: 6.5rem;
   height: 6.5rem;
   flex: none;
-  display: grid;
-  place-items: center;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.2);
   border: 2px solid rgba(255, 255, 255, 0.7);
-  font-weight: 500;
+  object-fit: cover;
 }
 .info { flex: 1 1 16rem; min-width: 0; display: grid; gap: .25rem; }
 .info h1 { font-size: clamp(1.6rem, 6vw, 2.2rem); font-weight: 800; line-height: 1.15; }
@@ -103,14 +100,13 @@ h2 {
         <ul>
           <li><a href="profile.html" aria-current="page">Home</a></li>
             <li><a href="fish.html">Dự án đại dương</a></li>
-
         </ul>
     </nav>
 </header>
 <div class="cv" lang="vi">
   <div class="top">
-    <div class="photo">Ảnh</div>
-    <div class="info">
+  <img class="photo" src="anhcanha.jpg" alt="ảnh cá nhân">
+  <div class="info">
       <h1>Phan Hoàng Bảo An</h1>
       <p class="role">Sinh viên năm nhất</p>
       <p class="contact"><span>ancc799@gmail.com</span><span>0376721300</span><span>TP. Hồ Chí Minh</span></p>
